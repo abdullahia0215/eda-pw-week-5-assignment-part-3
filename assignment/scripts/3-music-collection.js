@@ -32,6 +32,7 @@ console.log(
   addToCollection(myCollection, "6sampleTitle", "sampleArtist", "sampleYear")
 );
 
+
 console.log(myCollection);
 
 function showCollection(collection) {
