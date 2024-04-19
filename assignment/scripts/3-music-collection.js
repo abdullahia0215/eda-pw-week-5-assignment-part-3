@@ -38,7 +38,7 @@ console.log(myCollection);
 function showCollection(collection) {
   for (let i = 0; i < collection.length; i++) {
     console.log(
-      `${collection[i].title} by, ${collection[i].artist}, published in in ${collection[i].yearPublished}`
+      `${collection[i].title} by, ${collection[i].artist}, published in ${collection[i].yearPublished}`
     );
   }
 }
