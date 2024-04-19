@@ -57,6 +57,20 @@ function findByArtist(collection, artist) {
 console.log(findByArtist(myCollection, "sampleArtist"));
 console.log(findByArtist(myCollection, "Baby Keem"));
 
+// const searchCriteria = { artist: 'Ray Charles', year: 1957 }
+
+// function searchArtistAndYear(collection, searchCriteria){
+//   let mostCriteriaArray = [];
+//   for (let i=0; i < collection.length; i++)
+//   if (searchCriteria === collection.album){
+//     mostCriteriaArray.push(collection[i])
+//   }
+//     return mostCriteriaArray;
+
+
+// }
+
+console.log(searchrtistAndYear(myCollection, ``))
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
