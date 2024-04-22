@@ -29,7 +29,7 @@ console.log(
   addToCollection(myCollection, "5sampleTitle", "sampleArtist", 2024)
 );
 console.log(
-  addToCollection(myCollection, "6sampleTitle", "sampleArtist", 2024)
+  addToCollection(myCollection, "6sampleTitle", "anotherArtist", 2024)
 );
 
 console.log(addToCollection(myCollection, "Ray Song", "Ray Charles", 1957));
@@ -58,22 +58,25 @@ function findByArtist(collection, artist) {
 console.log(findByArtist(myCollection, "sampleArtist"));
 console.log(findByArtist(myCollection, "Baby Keem"));
 
-const searchCriteria = { artist: "Ray Charles", year: 1957 };
+// const searchCriteria = { artist: "Ray Charles", year: 1957 };
 
-function searchArtistAndYear(collection, searchCriteria) {
-  let mostCriteriaArray = [];
-  for (let i = 0; i < collection.length; i++) {
-    if (
-      searchCriteria.artist === collection[i].artist &&
-      searchCriteria.year === collection[i].yearPublished
-    ) {
-      mostCriteriaArray.push(collection[i]);
-    }
-  }
-  return mostCriteriaArray;
-}
+// function searchArtistAndYear(collection, searchCriteria) {
+//   if (!searchCriteria || (!searchCriteria.artist && !searchCriteria.year)) {
+//     return collection;
+//   }
+//   let mostCriteriaArray = [];
+//   for (let i = 0; i < collection.length; i++) {
+//     if (
+//       searchCriteria.artist === collection[i].artist &&
+//       searchCriteria.year === collection[i].yearPublished
+//     ) {
+//       mostCriteriaArray.push(collection[i]);
+//     }
+//   }
+//   return mostCriteriaArray;
+// }
 
-console.log(searchArtistAndYear(myCollection, searchCriteria));
+// console.log(searchArtistAndYear(myCollection, searchCriteria));
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
